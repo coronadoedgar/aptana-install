@@ -3,13 +3,13 @@
 #ASIGNAR PERMISOS DE EJECUCIÓN: chmod +x
 #EJECUTAR EL SCRIPT ./apatana_install.sh
 
-echo "INSTALAR JAVA"
+echo "INSTALAR JAVA..."
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
 
-echo "INSTALAR APATANA"
+echo "INSTALAR APATANA..."
 dir_local=$(pwd)
 dir_local+="/APTANA"
 echo "COPIANDO... ESPERE"
