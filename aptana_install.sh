@@ -12,7 +12,7 @@ sudo apt-get install oracle-java7-installer
 echo "INSTALAR APATANA"
 dir_local=$(pwd)
 dir_local+="/APTANA"
-echo "COPIANDO ... ESPERE"
+echo "COPIANDO... ESPERE"
 sudo cp -r $dir_local /opt/
 sudo chmod 777 -R /opt/APTANA
 app_exec="/usr/share/applications/aptana.desktop"
