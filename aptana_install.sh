@@ -26,3 +26,5 @@ sudo su root -c "echo 'Terminal=false' >> $app_exec"
 sudo su root -c "echo 'Type=Application' >> $app_exec"
 sudo su root -c "echo 'Categories=GNOME;Application;Development;' >> $app_exec"
 sudo su root -c "echo 'StartupNotify=true' >> $app_exec"
+
+echo "APTANA INSTALADO :)"
