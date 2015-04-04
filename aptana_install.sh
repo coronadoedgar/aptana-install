@@ -3,7 +3,7 @@
 #ASIGNAR PERMISOS DE EJECUCIÓN: chmod +x
 #EJECUTAR EL SCRIPT ./apatana_install.sh
 
-echo "INSTALAR JAVA"
+echo "INSTALAR JAVA..."
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
